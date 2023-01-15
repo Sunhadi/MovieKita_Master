@@ -1,0 +1,34 @@
+.container-slider {
+  width: 100%;
+  height: auto;
+}
+
+.slick-slide {
+  box-sizing: border-box;
+}
+
+.slick-slide img {
+  height: 100%;
+  width: 100%;
+  box-sizing: border-box;
+}
+
+.slick-dots {
+  position: relative;
+}
+
+.slick-dots li.slick-active button:before {
+  color: white
+}
+
+.slick-dots li button:before {
+  color: white
+}
+
+.slick-list {
+  overflow: visible;
+}
+
+.slick-prev {
+  z-index: 10;
+}
